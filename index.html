@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+
+<div class="form">
+    <label for="cmd">cmd (required)</label>
+    <input type="text" name="cmd" value="_donations">
+
+    <label for="business">business (required)</label>
+    <input type="text" name="business" value="info@childrenofzionvillage.org">
+
+    <label for="item_name">Memo line, i.e. "Sponsorship for child"</label>
+    <input type="text" name="item_name" value="Example memo">
+
+    <label for="return">Success return URL</label>
+    <input type="text" name="return" value="">
+
+    <label for="cancel_return">Cancel return URL</label>
+    <input type="text" name="cancel_return" value="">
+
+    <button type="button" name="Generate" onclick="generate()">Generate</button>
+
+    <label for="output" id="label"></label>
+    <textarea name="output" id="output" onclick="copytoclip()" rows=8 style="resize: none;" readonly></textarea>
+</div>
