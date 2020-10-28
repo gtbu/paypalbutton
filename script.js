@@ -12,7 +12,7 @@ var generate = function() {
     <INPUT TYPE="hidden" NAME="item_name" VALUE="`+item_name+`">
     <INPUT TYPE="hidden" NAME="return" VALUE="`+return_+`">
     <INPUT TYPE="hidden" NAME="cancel_return" VALUE="`+cancel_return+`">
-    <INPUT class="sponsor" TYPE="image" SRC="https://mz-ot.github.io/cozv_sponsorship-drive-2020/button.png" BORDER="0" NAME="submit" ALT="`+item_name+`">
+    <INPUT class="sponsor" TYPE="image" SRC="https://mz-ot.github.io/paypalbutton/sharethecost.png" BORDER="0" NAME="submit" ALT="`+item_name+`">
 </FORM>`
     document.getElementById('output').value = output
     document.getElementById('label').innerHTML = 'Click below to copy to clipboard'
